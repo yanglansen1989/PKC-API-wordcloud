@@ -1,0 +1,8 @@
+version: '3'
+services:
+  pkc-api:
+    image: curtinlv/pkc-api
+    container_name: pkc-api
+    ports:
+      - "80:80"
+    restart: unless-stopped
